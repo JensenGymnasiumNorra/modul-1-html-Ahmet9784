@@ -27,6 +27,31 @@ Se till att när man klickar på submit-knappen i formuläret så ska tack.html 
 </head>
 
 <body>
+<form action="webby.webp" method="get">
+    <fieldset>
+        <legend>Important survey</legend>
+        <label for="name" >name:</label>
+        <input type="text" id="name" name="name" rows="4" cols="50"><br><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="age">age:</label>
+        <input value="100" type="age" id="age" name="age"><br><br>
+    </fieldset>
+    <fieldset>
+    <legend>answer these</legend>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date-"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="radio-input">radio-input</label>
+    <input type="radio" id="radio-input" name="radio-input" value="option1"><br><br>
+</fieldset>
+
+    <input type="submit" value="Submit">
+</form>
 
 </body>
 
